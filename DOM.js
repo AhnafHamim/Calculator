@@ -27,11 +27,11 @@ ac.addEventListener("click", () => {
   numbers = [];
 });
 
-let c = document.querySelector("#C");
-c.addEventListener("click", () => {
-  answerDisplay.innerText = answerDisplay.innerText.slice(0, -1);
-  input/=10;
-});
+// let c = document.querySelector("#C");
+// c.addEventListener("click", () => {
+//   answerDisplay.innerText = answerDisplay.innerText.slice(0, -1);
+//   input/=10;
+// });
 
 let one = document.querySelector("#one");
 one.addEventListener("click", () => {
