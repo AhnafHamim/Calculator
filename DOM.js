@@ -30,7 +30,7 @@ ac.addEventListener("click", () => {
 let c = document.querySelector("#C");
 c.addEventListener("click", () => {
   answerDisplay.innerText = answerDisplay.innerText.slice(0, -1);
-  input=Math.floor(input/10);
+  input/=10;
 });
 
 let one = document.querySelector("#one");
