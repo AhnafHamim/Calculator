@@ -132,11 +132,6 @@ divide.addEventListener("click", () => {
   input = 0;
 });
 
-let decimal = document.querySelector("#decimal");
-decimal.addEventListener("click", () => {
-  answerDisplay.append(".");
-});
-
 let equals = document.querySelector("#equals");
 equals.addEventListener("click", () => {
   numbers.push(new opNum(operation, input));
